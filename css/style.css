@@ -132,9 +132,12 @@ h3{
 }
 .hobby h5{
   left: 50%;
+  top: 270%;
+
 }
 .hobby h3{
   left: 70%;
+  top: 280%;
 }
 footer {
   text-align: center;
