@@ -6,3 +6,139 @@
     style.css: You will write your css code for your portfolio website here. You can add other css files too but it must be under "css" folder.
 
 */
+body{
+   background-color: #321f28;
+}
+.top{
+    background-color:#734046;
+
+}
+.avi {  
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  text-align: center;
+
+  
+}
+
+.avi img {
+    margin: 10px;
+    padding: 5px;
+    vertical-align: middle;
+    border-radius: 50%;
+    border: 4px solid black;
+     
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  
+  .fa:hover {
+    opacity: 0.7;
+  }
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+    position:absolute;
+    left: 20px;
+    top: 350px;
+  }
+  .fa-instagram {
+    background: #55ACEE;
+    color: white;
+    position: absolute;
+    left: 140px;
+    top: 350px;
+  }
+  .fa-github {
+    background: #55ACEE;
+    color: white;
+    position: absolute;
+    left: 1280px;
+    top: 325px;
+  }
+  .fa-linkedin{
+    background: #3B5998;
+    color: white;
+    position: absolute;
+    left: 1390px;
+    top: 325px;
+  }
+  .fa-facebook, .fa-github, .fa-instagram, .fa-linkedin{
+    border: 2px solid;
+    border-radius: 15px;
+  }
+
+h6 ,h5{
+    font-weight: 900;
+    font-size: 50px;
+    font-family: 'Goblin One', cursive;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  margin-top: 15px;
+  text-align: center;
+  
+}
+.middle{
+    background-color:#a05344;
+}
+.about{
+    margin: 3%;
+ position: relative;
+
+}
+.about img ,.hobby img{
+width: 100%;
+border: 2px solid black;
+padding: 20px;
+
+}
+h5{
+    position: absolute;
+    top: 17px;
+    left: 50px;
+    
+}
+h3{
+    position: absolute;
+    top: 100px;
+    left: 150px;
+}
+.sec h5 {
+  top: 250px;
+}
+.sec h3{
+  top: 340px;
+}
+.third h5{
+  top: 460px;
+}
+.third h3{
+  top: 540px;
+}
+.hobby{
+    background-color: #e79e4f;
+    
+}
+.hobby h5{
+  left: 50%;
+}
+.hobby h3{
+  left: 70%;
+}
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: #321f28;
+  color: white;
+}
